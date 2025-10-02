@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <!--SEO friendly metadata-->
+  <title>Accessible and SEO-friendly HTML</title>
+  <meta name="description" content="A simple HTML5 web page with accessibility features and SEO friendly FEATURES">
+  <meta name="keywords" content="hTML5, Accessibility,SEO, semantic tags, web design">
+  <meta name="auther" content="Jerry Niva">
+
+  </head>
+  <body>
+    <!--Site Header-->
+    <header>
+      <h1>Accessible and SEO-friendly Web Page</h1>
+      <p>Leerning HTML5 structure, accessibility, and SEO basics</p>
+      
+      <!-- navigation-->
+       <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="#about" title="learn more about this page">About</a></li>
+          <li><a href="#articles" title="Read related articles">Articles</Article></i>
+            <li><a href="contact" title="Contact the author">Contact</a></li>
+        </ul>
+       </nav>
+    </header>
+
+    <!--Main Content Area-->
+    <main>
+      <!--About section-->
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About this page</h2>
+        <p>This page demonstrates the use of <strong> semantic HTML5</strong> elements to build a web page that is both accessible to screen readers and optimized for search engines. It avoids unnecessary elements like <code>&lt;div&gt;</code> and focuses on meaningful structure .</p>
+
+      </section>
+      
+    </main>
+     <!-- Articles Section -->
+     <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Articles</h2>
+
+      <article aria-labelledby="article1-title">
+        <h3 id="article1-title">Why Semantic HTML Matters</h3>
+        <p>Semantic HTML provides meaning to content beyond its visual presentation. Elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> help both users and search engines understand the structure of a page.</p>
+      </article>
+
+      <article aria-labelledby="article2-title">
+        <h3 id="article2-title">Accessibility and Screen Readers</h3>
+        <p>Using proper HTML5 landmarks and attributes ensures that assistive technologies can navigate and interpret content more effectively, improving inclusivity for all users.</p>
+      </article>
+
+      <article aria-labelledby="article3-title">
+        <h3 id="article3-title">SEO Best Practices in HTML</h3>
+        <p>Basic SEO techniques include writing descriptive metadata, structuring headings in logical order, and ensuring content is human-readable. These practices improve search engine discoverability.</p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you’d like to learn more, feel free to <a href="mailto:example@email.com">send me an email</a>.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Accessible Web Demo | Built with HTML5</p>
+  </footer>
+  </body>
+</html>
